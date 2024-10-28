@@ -25,3 +25,4 @@ h5py
 imgaug
 IPython[all]
 jupyter
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
