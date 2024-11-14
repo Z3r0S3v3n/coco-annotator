@@ -1,5 +1,5 @@
 # Backend environment docker image
-FROM tensorflow/tensorflow:1.14.0-gpu-py3
+FROM tensorflow/tensorflow:1.15.5-gpu-py3
 
 RUN apt-get update
 RUN apt-get install -y git
